@@ -1,0 +1,86 @@
+.jumbotron {
+  padding-top: 6rem;
+  /*background-image: url(img/obatan.jpeg);*/
+  background-color: #2B3467
+  background-size: cover;
+}
+.jumbotron h1 {
+  padding-top: 100px;
+}
+button {
+  border-radius: 24px;
+  opacity: 0.5;
+  padding: 5px 25px;
+  margin-left: 24px;
+}
+
+body {
+  background-color: #FCFFE7;
+  
+}
+
+#berita {
+  background-color: #f3f3f3;
+}
+.nav-link:hover {
+  background-color: rgb(197, 214, 245);
+}
+.row {
+  margin-right: 200px;
+}
+p {
+  font-size: 15px;
+}
+.mcuu li {
+  margin-bottom: 20px;
+  list-style: none;
+  margin-right: 15px;
+}
+.fasilitas,
+.operasi,
+.mcuu,
+.icu,
+.igd,
+.lab,
+.cathlab {
+  margin-left: 15px;
+}
+.aboutus{
+  padding: 30px;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+#footer {
+  background-color: #BAD7E9;
+}
+.col-3 h4 {
+  font-weight: 700;
+}
+.col-3 h5 {
+  font-size: 15px;
+  margin-left: 5px;
+}
+.col p {
+  margin-left: 14rem;
+  font-size: 20px;
+  font-weight: 500;
+}
+.col li {
+  list-style: none;
+  font-weight: 500;
+  margin-left: 11rem;
+  margin-top: 5px;
+}

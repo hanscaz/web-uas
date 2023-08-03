@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Beranda | Rumah Sakit Krisna</title>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-lg" style="background-color: #2B3467">
+        <div class="container">
+            <a class="navbar-brand pt-2" href="#Logo" style="color: white"><img src="img/krisna (5).png" alt="logo" width="55" />Rumah Sakit Krisna</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="visimisi.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="selengkapnya.html">NEWS & ARTICLE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hubkam.html">CONTACT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="login" href="form.html"><button>LOG IN</button></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Akhir Navbar-->
+    <!--Tampilan depan-->
+
+    <div class="picture" style=" background-image: url(img/dokter.jpeg); height: 23rem; background-size: cover; margin-top: 3rem;"></div>
+
+    <!--Akhir Tampilan depan-->
+
+
+    <!--Awal form-->
+    <div class="container-form">
+        <div class="title">
+            <h2 style="color: #5ea4b9; text-shadow: 1px 1px #adadadc0;">Form Pendaftaran Rawat Jalan</h2>
+            <p style="font-weight: 500; opacity: 0.6;">Harap Isi dengan Data yang Sebenarnya</p>
+        </div>
+        <form style="margin-top: 2rem;">
+            <div class="container">
+                <div class="row" id="form">
+                    <div class="form-group col-md-12">
+                        <label for="inputnama" style="margin-bottom: 0.5rem;">Nama Lengkap Pasien</label>
+                        <input type="text" class="form-control" id="inputnama" placeholder="Nama Lengkap Pasien">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputtempatlahir" style="margin-bottom: 0.5rem;">Tempat Lahir</label>
+                        <input type="text" class="form-control" id="inputtempatlahir" placeholder="Tempat Lahir">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputtempatlahir" style="margin-bottom: 0.5rem;">Tanggal Lahir</label>
+                        <input type="date" class="form-control" id="inputtempatlahir" placeholder="Tempat Lahir">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="subject" style="margin-bottom: 0.5rem;">No Rekam Medis</label>
+                        <input type="text" class="form-control" id="rekammedis" placeholder="No Rekam Medis">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <h6>Poli Tujuan</h6>
+                        <select class="form-select col-sm-6" aria-label=".form-select-sm example" style="margin-bottom: 0.5rem">
+            <option selected>Poli Tujuan</option>
+            <option value="Umum">Umum</option>
+            <option value="Penyakit Dalam">Penyakit Dalam</option>
+            <option value="Anak">Anak</option>
+            <option value="Obsgyn">Obsgyn</option>
+            <option value="Gigi">Gigi</option>
+            <option value="Bedah">Bedah Umum</option>
+            <option value="Jiwa">Jiwa</option>
+            <option value="Syaraf">Syaraf</option>
+            <option value="Gizi">Gizi</option>
+            </select>
+                        <br>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <h6>Dokter Tujuan</h6>
+                        <select class="form-select col-sm-6" aria-label=".form-select-sm example" style="margin-bottom: 0.5rem;">
+            <option selected>Dokter Tujuan</option>
+            <option value="dr. Radega Barozha">dr. Radega Barozha</option>
+            <option value="dr. Joseph Areza">dr. Joseph Areza</option>
+            <option value="dr. David Paranoan, Sp.PD">dr. David Paranoan, Sp.PD</option>
+            <option value="dr. Ratih Dwi Andini, Sp.A,.M.Ked.Klin">dr. Ratih Dwi Andini, Sp.A,.M.Ked.Klin</option>
+            <option value="dr. Bernadeta Caroline Panjaitan, Sp.OG">dr. Bernadeta Caroline Panjaitan, Sp.OG</option>
+            <option value="drg. Nicolaus Waelan, SpBM">drg. Nicolaus Waelan, SpBM</option>
+            <option value="drg. Maria Pricilia, SpKG">drg. Maria Pricilia, SpKG</option>
+            <option value="dr. Felix F. Hangandi, SpB">dr. Felix F. Hangandi, SpB</option>
+            <option value="dr. A. P. Wawolumaja, SpB">dr. A. P. Wawolumaja, SpB</option>
+            <option value="dr. Stevanus Ingwantoro, SpKJ">dr. Stevanus Ingwantoro, SpKJ</option>
+            <option value="dr. Surjo Dharmono T, SpKJ(K)">dr. Surjo Dharmono T, SpKJ(K)</option>
+            <option value="dr. Waskita Roan, SpKJ">dr. Waskita Roan, SpKJ</option>
+            <option value="dr. Yohanes Yanni, SpS">dr. Yohanes Yanni, SpS</option>
+            <option value="dr. Parlin Susanto, SpS">dr. Parlin Susanto, SpS</option>
+            <option value="dr. Dermawan C. Nadeak, SpGK">dr. Dermawan C. Nadeak, SpGK</option>
+            </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputtempatlahir" style="margin-bottom: 0.5rem;">Hari Kunjungan</label>
+                        <input type="date" class="form-control" id="hari kunjungan" placeholder="Tempat Lahir">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputtempatlahir" style="margin-bottom: 0.5rem;">Waktu Kunjungan</label>
+                        <input type="time" class="form-control" id="waktu kunjungan" placeholder="Tempat Lahir">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="pesan" style="margin-bottom: 0.5rem;">No Jaminan Kesehatan <p style="color: rgb(0, 0, 0);">bila ada</p></label>
+                        <textarea class="form-control" id="jamkes" placeholder="No Jaminan Kesehatan" style="height: 2rem;"></textarea>
+                    </div>
+                    <center>
+                        <div class="button">
+                            <button type="submit" value="submit" class="btn btn-primary btn lg">Daftar</button>
+                        </div>
+                    </center>
+
+                </div>
+
+
+            </div>
+        </form>
+    </div>
+    </div>
+    <!--Akhir form-->
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="wadah">
+            <div class="row">
+                <div class="col-1">
+                    <img src="img/krisna (5).png" alt="logofoot" width="150">
+                </div>
+                <div class="col-3" style="margin-top: 4rem; margin-left: 2rem;">
+                    <h4>Rumah Sakit Krisna</h4>
+                    <h5>Jl. Sepanjang Jalan Kenangan</h5>
+                </div>
+                <div class="col">
+                    <p><i class="bi bi-bookmark-heart"></i> Created By:</p>
+                    <ul>
+                        <li>FAHMI RAFI AUFA</li>
+                        <li>FAJAR ARASY</li>
+                        <li>HANY YESICA SIHOMBING</li>
+                        <li>MUHAMMAD FARRAS RAMADHAN</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Footer -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+
+</html>

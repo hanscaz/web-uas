@@ -1,0 +1,93 @@
+body {
+    font-family: "Segoe UI";
+    height: auto;
+    background-color: #e3f0f0;
+}
+
+button {
+    border-radius: 24px;
+    opacity: 0.5;
+    padding: 5px 25px;
+    margin-left: 24px;
+}
+
+#information {
+    padding: 0px 0 30px;
+    background: #75b1da;
+}
+
+#information strong {
+    color: #ffffff;
+    padding: 3px;
+    border: solid transparent;
+    border-radius: 10px;
+    box-shadow: 2px 9px 10px -9px rgba(18, 18, 18, 1);
+    -webkit-box-shadow: 2px 9px 10px -9px rgba(18, 18, 18, 1);
+    -moz-box-shadow: 2px 9px 10px -9px rgba(18, 18, 18, 1);
+    background-color: #2e86c1;
+}
+
+#information i {
+    margin-left: 10px;
+    padding-top: 15px;
+}
+
+#information a:hover {
+    transition: 0.2s;
+    transform: scale(0.5);
+    padding: 1px;
+    border-radius: 10px;
+    border: solid transparent;
+    background-color: #ffffff;
+    color: #679cc0;
+}
+
+.title {
+    margin: 4rem 0rem 0rem 7rem;
+}
+
+#kritsar {
+    color: #ffffff;
+    text-shadow: 1px 1px rgba(119, 119, 119, 0.795);
+    margin-bottom: 3rem;
+    background: #468ebeb4;
+    border: solid 2px #e4e4e4;
+    box-shadow: 0px 2px 24px 2px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0px 2px 24px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 2px 24px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.form-group {
+    padding: 1.5rem;
+    font-weight: 700;
+}
+
+.form-control {
+    box-shadow: 4px 4px rgba(18, 18, 18, 0.055);
+}
+
+.btn-primary {
+    font-weight: 700;
+    opacity: 1;
+    padding: 5px 25px;
+    box-shadow: 0.5px 1px rgba(102, 102, 102, 0.753);
+    margin: 10px 0 30px 15px;
+}
+
+.btn-primary:hover {
+    color: #2e86c1;
+    transition: 0.2s;
+    transform: scale(1.1);
+    border: solid 1px #2e86c1;
+    border-radius: 8px;
+    background-color: whitesmoke;
+}
+
+#footer {
+    background-color: #e4e4e4;
+}
+
+.col-3 h4 {
+    font-weight: 700;
+}
